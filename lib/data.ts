@@ -64,7 +64,7 @@ const defaultData: PortfolioData = {
     paragraphs: [
       'I am a motivated software developer skilled in the MERN stack and Spring Boot, capable of building full-stack applications, REST APIs, and clean front-end interfaces. I work confidently with Git and GitHub for version control and collaboration. I enjoy learning new technologies, writing efficient code, and improving my skills every day to build better software.'
     ],
-    imageUrl: 'mathandev.vercel.app/1000673187-01.jpeg',
+    imageUrl: 'https://mathandev.vercel.app/1000673187-01.jpeg',
   },
   skills: [
     { name: 'Java', icon: 'SiJava', color: 'from-orange-500 to-orange-600' },
@@ -162,4 +162,5 @@ export const resetPortfolioData = (): void => {
     localStorage.setItem('portfolioData', JSON.stringify(defaultData))
   }
 }
+
 

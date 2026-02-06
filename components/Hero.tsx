@@ -221,7 +221,7 @@ export default function Hero() {
             </motion.button>
 
             <motion.a
-              href="http://192.168.1.137:3000/narmathan.pdf"
+              href="https://mathandev.vercel.app/narmathan.pdf"
               download
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
@@ -298,3 +298,4 @@ export default function Hero() {
     </section>
   )
 }
+
